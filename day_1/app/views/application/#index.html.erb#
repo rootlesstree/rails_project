@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sudyslider</title>
+<style type="text/css">*{margin:0;padding:0;}</style>
+<link rel="stylesheet" type="text/css"
+      href="http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/sudy-slider.css">
+<script id="jquery_183" type="text/javascript" class="library"
+        src="/js/sandbox/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript"
+        src="http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/jquery.mousewheel.m.js"></script>
+<script type="text/javascript"
+        src="http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/jquery.sudySlider.m.js"></script>
+<script type="text/javascript">
+var imgs = [
+{
+title:"百度",
+url:'http://www.baidu.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/0.png'
+},
+{
+title:"腾讯",
+url:'http://www.qq.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/1.png'
+},
+{
+title:"搜狐",
+url:'http://www.sohu.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/2.png'
+},
+{
+title:"网易",
+url:'http://www.163.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/3.png'
+},
+{
+title:"优酷",
+url:'http://www.youku.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/4.png'
+},
+{
+title:"土豆",
+url:'http://www.tudou.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/5.png'
+},
+{
+title:"雅虎",
+url:'http://www.yahoo.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/6.png'
+},
+{
+title:"网易",
+url:'http://www.163.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/7.png'
+},
+{
+title:"优酷",
+url:'http://www.youku.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/8.png'
+},
+{
+title:"土豆",
+url:'http://www.tudou.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/9.png'
+},
+{
+title:"雅虎",
+url:'http://www.yahoo.com',
+src:'http://sandbox.runjs.cn/uploads/rs/275/xz9kphvq/10.png'
+}
+];
+</script>
+</head>
+
+<body>
+<div id="slider"></div>
+</body>
+<script type="text/javascript">
+$(function(){
+$("#slider").sudySlider();
+});
+</script>
+</html>
+
